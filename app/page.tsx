@@ -52,19 +52,18 @@ return ( <main className="min-h-screen bg-white">
 
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
 
-          <Link
-  href="/contact"
-  className="bg-white text-green-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100"
->
-  Book Now
-</Link>
-
-<Link
+    <Link
   href="/contact"
   className="border border-white px-8 py-3 rounded-lg hover:bg-white/10"
 >
-  Call Us
+  Book Now
 </Link>
+<a
+          href="tel:0466544960"
+          className="inline-block bg-white text-green-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100"
+        >
+        Call Us
+        </a>
 
         </div>
 
